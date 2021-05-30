@@ -5,10 +5,58 @@
     scrollbar-color: linear-gradient(to right, rgba(202, 116, 221, 1) 0%, rgba(254, 254, 254, 1) 30%, rgba(254, 254, 254, 1) 47%, rgba(254, 254, 254, 1) 71%, rgba(202, 116, 221, 1) 100%) #000000;
     scrollbar-width: thin;
 }
+#footer i{
+    color:white;
+}
+.filtres{
+    font-weight:bold;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 1rem
+  }
+   
+.navbar-brand{
+    cursor:pointer;
+}
+
 
 p {
     font-size: 17px;
     font-weight: bold;
+}
+
+#realisation,#veille{
+    background-color: rgb(242,242,242);
+}
+
+#progress{
+	background-color: #198cc2;
+	height: 3px;
+	width: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999; /* Peut être important si vous avez un menu en position fixe */
+}
+
+.contact {
+    background-image: url('../img/space.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+}
+.contact i, .contact p{
+    color:white;
+}
+
+.contact i:hover ~ p, .contact i:hover,.contact p:hover i, .contact p:hover{
+    color:#198cc2;
 }
 
 /*== Chrome ==*/
@@ -38,6 +86,66 @@ p {
     width: 100%;
     height: 100vh;
 }
+
+
+.footer {
+    background-color: black;
+}
+
+
+#palpatine1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+    background: #14212e;
+    background-image: url('https://media.mcetv.fr/wp-content/uploads/2019/09/Star-Wars-9-faut-il-sattendre-au-retour-de-lEmpereur-Palpatine-1000.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#palpatine2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+    background: #14212e;
+    background-image: url('https://i.pinimg.com/originals/38/ba/c3/38bac3f1f2915dbf761b498c2747f175.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#yoda {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+    background: #14212e;
+    background-image: url('https://wallpaperaccess.com/full/1946403.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#porg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+    background: #14212e;
+    background-image: url('https://thumbs.gfycat.com/OptimalJubilantDoctorfish-max-1mb.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 
 @media (hover: none) {
     #home {
@@ -115,7 +223,7 @@ h4::after {
 }
 
 .color {
-    color: black;
+    
     font-size: 25px;
 }
 
@@ -205,6 +313,7 @@ h4 {
 
 /* animation timeLine    */
 
+
 #parcours, #parcours div div div p {
     color: white;
 }
@@ -251,6 +360,7 @@ h4 {
     background-color: #0079ae;
     width: 20vw;
     height: 5px;
+ 
 }
 
 .input::before {
@@ -288,7 +398,7 @@ h4 {
     content: attr(data-year);
     top: 25px;
     transform: translateX(-50%);
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .input span::before {
@@ -317,10 +427,19 @@ h4 {
     display: block;
 }
 
-.contact {
-    background-color: #1d6895;
-}
 
+/* ici */
+
+
+  
+  @media (min-width: 1600px) {
+    .input::before {
+      left: -300px;
+      
+    }
+  
+}
+   
 /*  animation bouton sabre laser  */
 
 #container {
@@ -509,6 +628,9 @@ h4 {
     margin-bottom: 50px;
     box-shadow: 10px 13px 8px -10px rgba(0, 0, 0,0.4);
     cursor: pointer;
+    min-height: 325px;
+    max-height:325px;
+    overflow: hidden;
 }
 
 /* 
@@ -592,6 +714,9 @@ p a{
     box-shadow: 10px 13px 8px -10px rgba(0, 0, 0,0.7);
    
 }
+
+
+
       
 
 

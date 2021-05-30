@@ -1,913 +1,620 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8" />
-    <title>Marmilliot Kilian</title>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <link href="img/logo.png" rel="shortcut icon" />
-    <link href="lib/bootstrap.min.css" rel="stylesheet" />
-    <link href="lib/font-awesome-animation.min.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <link href="lib/aos.css" rel="stylesheet" />
-    <link href="css/styles.css" rel="stylesheet" />
-  </head>
 
-  <body>
-    <div id="preloader-cont">
-      <h2 class="loader text-center"><span id="preload"></span></h2>
-      <!-- <svg class="loader" width="145" height="145">
-            <ellipse class="loading" cx="70" cy="70" rx="50" ry="50"
-            style="fill:none;stroke:rgb(43,158,215);stroke-width:3 " stroke-dasharray="36" />
-            <ellipse class="loading" cx="70" cy="70" rx="60" ry="60"
-            style="fill:none;stroke:white;stroke-width:3" stroke-dasharray="40" />
-            <ellipse class="loading" cx="70" cy="70" rx="70" ry="70"
-            style="fill:none;stroke:rgb(0, 132, 255);stroke-width:3" stroke-dasharray="50" />                 
-          </svg>  -->
-    </div>
+<head>
+  <meta charset="utf-8" />
+  <title>Marmilliot Kilian</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link href="img/logo.png" rel="shortcut icon" />
+  <link href="lib/bootstrap.min.css" rel="stylesheet" />
+  <link href="lib/font-awesome-animation.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="lib/aos.css" rel="stylesheet" />
+  <link href="css/styles.css" rel="stylesheet" />
+</head>
 
-    <div id="home" data-spy="scroll" data-target=".navbar">
-      <header>
-        <nav class="navbar navbar-expand-lg navbar-dark">
-          <div class="container-fluid">
-            <a href="#"
-              ><img class="navbar-brand" src="img/logo.png" width="55px"
-            /></a>
+<body>
+  <div id="preloader-cont">
+    <h2 class="loader text-center"><span id="preload"></span></h2>
+  </div>
+  <div id="progress"></div>
 
-            <!-- <span class="navbar-toggler-icon"></span> 
-           <div id="nav-container" class="navbar-toggler mt-4" >
-            <div class="toggle-icon"  >
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-            </div>
-          </div> -->
-            <div id="container" class="navbar-toggler">
-              <div
-                id="burger"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <div class="bun top"></div>
-                <div class="filling"></div>
-                <div class="bun bottom"></div>
-              </div>
-            </div>
+  <div id="home" data-spy="scroll" data-target=".navbar">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <img class="navbar-brand" src="img/logo.png" width="55px" onclick="window.location = '#home';" />
 
-            <div
-              class="collapse navbar-collapse text-lg-center justify-content-lg-center"
-              id="navbarNavDropdown"
-            >
-              <ul class="navbar-nav navbar">
-                <li class="nav-item">
-                  <a class="nav-link color" id="parcoursBoutton" href="#parcours">Mon Parcours</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link color" id="competencesBoutton" href="#competences">Compétences</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link color" id="realisationBoutton" href="#realisation">Réalisations</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link color" href="#veille">Veille Tech</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link color" id="contactBoutton" href="#contact">Contact</a>
-                </li>
-              </ul>
+          <div id="container" class="navbar-toggler">
+            <div id="burger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <div class="bun top"></div>
+              <div class="filling"></div>
+              <div class="bun bottom"></div>
             </div>
           </div>
-        </nav>
-      </header>
 
-      <div class="container text-center text-justify-center mb-5 pb-5">
-        <svg
-          class="nom mt-5"
-          version="1.0"
-          xmlns="http://www.w3.org/2000/svg"
-          width="100%"
-          height="100%"
-          viewBox="0 0 935.000000 120.000000"
-          preserveAspectRatio="xMidYMid meet"
-        >
-          <g
-            transform="translate(0.000000,150.000000) scale(0.050000,-0.050000)"
-            style="fill: none"
-            stroke-width="80px"
-            stroke="rgb(43,158,215)"
-          >
-            <path
-              class="anim"
-              d="M1895 2317 c-96 -46 -142 -124 -132 -227 14 -157 188 -244 338 -169
-            81 41 125 123 116 217 -16 150 -185 244 -322 179z"
-            />
-            <path
-              class="anim"
-              d="M3155 2317 c-96 -46 -142 -124 -132 -227 14 -157 188 -244 338 -169
-            81 41 125 123 116 217 -16 150 -185 244 -322 179z"
-            />
-            <path
-              class="anim"
-              d="M7007 2288 c-145 -14 -268 -105 -336 -248 l-36 -75 0 -595 0 -595
+          <div class="collapse navbar-collapse text-lg-center justify-content-lg-center" id="navbarNavDropdown">
+            <ul class="navbar-nav navbar">
+              <li class="nav-item">
+                <a class="nav-link color js-scroll" id="parcoursBoutton" href="#parcours">Mon Parcours</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color js-scroll" id="competencesBoutton" href="#competences">Compétences</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color js-scroll " id="realisationBoutton" href="#realisation">Réalisations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color js-scroll " href="#veille">Veille Tech</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link color js-scroll" id="contactBoutton" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container text-center text-justify-center  pt-5  mb-5 pb-5 ">
+      <svg class="nom mt-5" version="1.0" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+        viewBox="0 0 935.000000 120.000000" preserveAspectRatio="xMidYMid meet">
+        <g transform="translate(0.000000,150.000000) scale(0.050000,-0.050000)" style="fill: none" stroke-width="80px"
+          stroke="rgb(43,158,215)">
+          <path class="anim" d="M1895 2317 c-96 -46 -142 -124 -132 -227 14 -157 188 -244 338 -169
+            81 41 125 123 116 217 -16 150 -185 244 -322 179z" />
+          <path class="anim" d="M3155 2317 c-96 -46 -142 -124 -132 -227 14 -157 188 -244 338 -169
+            81 41 125 123 116 217 -16 150 -185 244 -322 179z" />
+          <path class="anim" d="M7007 2288 c-145 -14 -268 -105 -336 -248 l-36 -75 0 -595 0 -595
             240 0 240 0 5 500 c3 275 9 506 13 513 5 6 12 12 18 12 5 0 9 -195 9 -502 0
             -277 4 -509 8 -516 7 -9 63 -12 248 -10 l239 3 5 510 c3 281 7 511 8 513 1 1
             9 2 17 2 13 0 15 -66 17 -512 l3 -513 245 0 245 0 0 565 c0 502 -2 572 -17
             627 -67 240 -228 347 -482 321 -95 -10 -182 -53 -241 -121 l-45 -52 -17 25
-            c-77 113 -215 166 -386 148z"
-            />
-            <path
-              class="anim"
-              d="M8870 2289 c-231 -19 -409 -163 -471 -384 -11 -40 -14 -156 -14 -590
+            c-77 113 -215 166 -386 148z" />
+          <path class="anim" d="M8870 2289 c-231 -19 -409 -163 -471 -384 -11 -40 -14 -156 -14 -590
             l0 -540 240 0 240 0 3 168 2 167 55 0 55 0 0 -157 c0 -87 4 -164 8 -171 7 -9
             63 -12 248 -10 l239 3 0 550 c0 492 -2 557 -17 613 -42 150 -117 249 -229 302
             -99 47 -204 61 -359 49z m100 -508 c5 -11 10 -65 10 -120 l0 -101 -56 0 -56 0
-            4 98 c2 53 10 107 16 120 16 29 67 31 82 3z"
-            />
-            <path
-              class="anim"
-              d="M11327 2288 c-145 -14 -268 -105 -336 -248 l-36 -75 0 -595 0 -595
+            4 98 c2 53 10 107 16 120 16 29 67 31 82 3z" />
+          <path class="anim" d="M11327 2288 c-145 -14 -268 -105 -336 -248 l-36 -75 0 -595 0 -595
             240 0 240 0 5 500 c3 275 9 506 13 513 5 6 12 12 18 12 5 0 9 -195 9 -502 0
             -277 4 -509 8 -516 7 -9 63 -12 248 -10 l239 3 5 510 c3 281 7 511 8 513 1 1
             9 2 17 2 13 0 15 -66 17 -512 l3 -513 245 0 245 0 0 565 c0 502 -2 572 -17
             627 -67 240 -228 347 -482 321 -95 -10 -182 -53 -241 -121 l-45 -52 -17 25
-            c-77 113 -215 166 -386 148z"
-            />
-            <path
-              class="anim"
-              d="M16240 2289 c-204 -18 -358 -94 -503 -248 -82 -88 -141 -190 -178
+            c-77 113 -215 166 -386 148z" />
+          <path class="anim" d="M16240 2289 c-204 -18 -358 -94 -503 -248 -82 -88 -141 -190 -178
             -311 -34 -106 -34 -309 -1 -423 145 -508 742 -729 1184 -440 92 60 204 182
             255 279 66 125 87 215 87 369 0 157 -14 221 -81 355 -40 82 -61 109 -148 195
             -83 84 -115 108 -191 147 -133 67 -264 91 -424 77z m187 -512 c45 -24 98 -79
             125 -130 31 -57 33 -203 4 -257 -26 -49 -84 -108 -131 -133 -56 -30 -173 -30
-            -230 0 -173 91 -207 330 -68 469 58 58 105 75 193 71 44 -2 88 -11 107 -20z"
-            />
-            <path
-              class="anim"
-              d="M396 2223 c-3 -21 -6 -351 -6 -734 0 -579 2 -698 14 -708 9 -8 83
+            -230 0 -173 91 -207 330 -68 469 58 58 105 75 193 71 44 -2 88 -11 107 -20z" />
+          <path class="anim" d="M396 2223 c-3 -21 -6 -351 -6 -734 0 -579 2 -698 14 -708 9 -8 83
             -11 247 -9 l234 3 5 323 5 322 131 -322 131 -323 262 -3 c225 -2 262 0 267 13
             3 8 -75 187 -176 404 -165 353 -181 391 -170 412 7 13 89 159 181 324 93 166
             169 309 169 318 0 16 -20 17 -239 17 l-240 0 -19 -27 c-10 -16 -81 -138 -158
-            -273 l-139 -244 -3 272 -2 272 -244 0 -243 0 -7 -37z"
-            />
-            <path
-              class="anim"
-              d="M2392 1518 l3 -743 225 0 225 0 0 740 0 740 -228 3 -227 2 2 -742z"
-            />
-            <path
-              class="anim"
-              d="M9687 2223 c-4 -21 -7 -351 -7 -734 0 -579 2 -698 14 -708 9 -8 83
+            -273 l-139 -244 -3 272 -2 272 -244 0 -243 0 -7 -37z" />
+          <path class="anim" d="M2392 1518 l3 -743 225 0 225 0 0 740 0 740 -228 3 -227 2 2 -742z" />
+          <path class="anim" d="M9687 2223 c-4 -21 -7 -351 -7 -734 0 -579 2 -698 14 -708 9 -8 83
             -11 247 -9 l234 3 5 220 5 219 89 -199 c48 -110 95 -210 102 -222 14 -23 16
             -23 259 -23 134 0 246 4 249 9 3 5 -48 141 -114 303 l-119 294 52 56 c87 92
             126 192 127 323 1 231 -140 413 -371 482 -44 13 -122 17 -410 20 l-356 5 -6
             -39z m621 -439 c28 -19 29 -67 2 -94 -15 -15 -33 -20 -75 -20 l-55 0 0 65 0
-            65 53 0 c31 0 61 -6 75 -16z"
-            />
-            <path
-              class="anim"
-              d="M12736 2223 c-3 -21 -6 -351 -6 -734 0 -579 2 -698 14 -708 9 -8 83
-            -11 247 -9 l234 3 3 743 2 742 -244 0 -243 0 -7 -37z"
-            />
-            <path
-              class="anim"
-              d="M13420 1732 c0 -573 1 -586 57 -702 36 -74 132 -169 207 -204 77 -36
+            65 53 0 c31 0 61 -6 75 -16z" />
+          <path class="anim" d="M12736 2223 c-3 -21 -6 -351 -6 -734 0 -579 2 -698 14 -708 9 -8 83
+            -11 247 -9 l234 3 3 743 2 742 -244 0 -243 0 -7 -37z" />
+          <path class="anim" d="M13420 1732 c0 -573 1 -586 57 -702 36 -74 132 -169 207 -204 77 -36
             201 -58 313 -54 l88 3 0 240 0 240 -68 6 c-110 9 -102 -34 -105 519 l-3 480
-            -244 0 -245 0 0 -528z"
-            />
-            <path
-              class="anim"
-              d="M14150 1732 c0 -573 1 -586 57 -702 36 -74 132 -169 207 -204 77 -36
+            -244 0 -245 0 0 -528z" />
+          <path class="anim" d="M14150 1732 c0 -573 1 -586 57 -702 36 -74 132 -169 207 -204 77 -36
             201 -58 313 -54 l88 3 0 240 0 240 -68 6 c-110 9 -102 -34 -105 519 l-3 480
-            -244 0 -245 0 0 -528z"
-            />
-            <path
-              class="anim"
-              d="M14906 2223 c-3 -21 -6 -351 -6 -734 0 -579 2 -698 14 -708 9 -8 83
-            -11 247 -9 l234 3 3 743 2 742 -244 0 -243 0 -7 -37z"
-            />
-            <path
-              class="anim"
-              d="M17120 2020 l0 -240 160 0 160 0 2 -502 3 -503 239 -3 c185 -2 241 1
-            248 10 4 7 8 235 8 505 l0 492 158 3 157 3 0 235 0 235 -567 3 -568 2 0 -240z"
-            />
-            <path
-              class="anim"
-              d="M4034 1885 c-101 -22 -191 -72 -270 -150 -85 -84 -127 -156 -154
+            -244 0 -245 0 0 -528z" />
+          <path class="anim" d="M14906 2223 c-3 -21 -6 -351 -6 -734 0 -579 2 -698 14 -708 9 -8 83
+            -11 247 -9 l234 3 3 743 2 742 -244 0 -243 0 -7 -37z" />
+          <path class="anim" d="M17120 2020 l0 -240 160 0 160 0 2 -502 3 -503 239 -3 c185 -2 241 1
+            248 10 4 7 8 235 8 505 l0 492 158 3 157 3 0 235 0 235 -567 3 -568 2 0 -240z" />
+          <path class="anim" d="M4034 1885 c-101 -22 -191 -72 -270 -150 -85 -84 -127 -156 -154
             -261 -78 -302 87 -608 375 -696 78 -25 97 -25 500 -11 l250 8 3 315 c3 349 -3
             402 -58 519 -41 86 -146 191 -232 231 -118 55 -284 73 -414 45z m185 -470 c34
             -17 61 -78 61 -135 0 -35 -4 -42 -27 -51 -40 -16 -98 -22 -128 -15 -31 8 -65
-            60 -65 99 0 42 27 87 63 102 41 18 62 18 96 0z"
-            />
-            <path
-              class="anim"
-              d="M5293 1886 c-168 -43 -306 -181 -357 -357 -14 -47 -16 -108 -14 -405
+            60 -65 99 0 42 27 87 63 102 41 18 62 18 96 0z" />
+          <path class="anim" d="M5293 1886 c-168 -43 -306 -181 -357 -357 -14 -47 -16 -108 -14 -405
             l3 -349 225 0 225 0 5 330 c3 182 7 331 8 333 1 1 13 2 27 2 14 0 26 -1 27 -2
             1 -2 5 -151 8 -333 l5 -330 225 0 225 0 3 325 c3 372 -3 424 -65 529 -21 34
-            -71 97 -113 140 -61 63 -86 82 -135 101 -75 27 -226 36 -302 16z"
-            />
-            <path
-              class="anim"
-              d="M1762 1328 l3 -553 225 0 225 0 3 553 2 552 -230 0 -230 0 2 -552z"
-            />
-            <path
-              class="anim"
-              d="M3022 1328 l3 -553 225 0 225 0 3 553 2 552 -230 0 -230 0 2 -552z"
-            />
-          </g>
-        </svg>
-      </div>
-
-      <div class="text-center mt-lg-5 pt-lg-5">
-        <a href="#competences"
-          ><i
-            class="fas fa-power-off fa-4x faa-tada animated-hover faa-fast mt-lg-5"
-            style="color: #0079ae"
-          ></i
-        ></a>
-      </div>
+            -71 97 -113 140 -61 63 -86 82 -135 101 -75 27 -226 36 -302 16z" />
+          <path class="anim" d="M1762 1328 l3 -553 225 0 225 0 3 553 2 552 -230 0 -230 0 2 -552z" />
+          <path class="anim" d="M3022 1328 l3 -553 225 0 225 0 3 553 2 552 -230 0 -230 0 2 -552z" />
+        </g>
+      </svg>
     </div>
 
-    <div
-      class="container-fluid"
-      style="background: linear-gradient(to bottom, #198cc2, #0079ae)"
-    >
-      <div class="row text-center pb-3" style="padding: 10px">
-        <h2 style="margin: 0px"><span id="typed"></span></h2>
-        <div class="container">
-          <div class="row">
-            <p class="mt-4 text-center">
-              Je m’appelle Kilian Marmilliot, j’ai 19 ans et je suis passionné
-              par l’informatique depuis des années. <br />j’ai acquis des
-              compétences, dans le cadre de mon BTS SIO, en développement
-              d’applications et en développement WEB.<br />
-              De Plus Motivé, observateur, sociable et flexible, j’apprends vite
-              et serai ravi de me joindre à vos équipes.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      class="container-fluid"
-      style="background-color: #000000"
-      id="parcours"
-    >
-      <div
-        data-aos="fade-up-right"
-        data-aos-easing="linear"
-        data-aos-duration="1000"
-        class="container text-center pb-4"
-      >
-        <h2 class="mb-3">MON <a href="joke/sw.html" style="color:white; font-size:32px">P</a>ARCOURS</h2>
-        <div class="flex-parent mt-5">
-          <div class="input-flex-container">
-            <div class="input">
-              <span data-year="2017 - 2019" data-info="BAC STI2D"></span>
-            </div>
-            <div class="input active">
-              <span data-year="2019 - 2021" data-info="BTS SIO"></span>
-            </div>
-            <div class="input">
-              <span data-year="Mon Projet futur" data-info="Licence"></span>
-            </div>
-          </div>
-          <div class="description-flex-container">
-            <p>
-              BAC STI2D spécialité SIN (Système d'Information et Numérique)
-              Mention très bien
-            </p>
-            <p class="active">
-              BTS SIO spécialité SLAM (Solutions Logicielles & Applications
-              Métiers)
-            </p>
-            <p>Licence en Alternance</p>
-          </div>
-        </div>
-      </div>
-    </div>
+    <!-- <div class="text-center mt-lg-5 pt-lg-5">
+      <a href="#competences"><i class="fas fa-power-off fa-4x faa-tada animated-hover faa-fast mt-lg-5"
+          style="color: #0079ae"></i></a>
+    </div> -->
+  </div>
 
-    <!-- Compétences -->
-    <div
-      class="container-fluid"
-      style="background: linear-gradient(to bottom, #198cc2, #0079ae)"
-    >
-      <div class="row text-center mb-5" id="competences">
-        <h2>Compétences</h2>
-      </div>
+  <div class="container-fluid" style="background: linear-gradient(to bottom, #198cc2, #0079ae)">
+    <div class="row text-center pb-3" style="padding: 10px">
+      <h2 style="margin: 0px"><span id="typed"></span></h2>
       <div class="container">
         <div class="row">
-          <div data-aos="fade-up" class="col-md-4 col-sm-12 text-center mb-5">
-            <i
-              class="fas fa-laptop-code fa-3x faa-tada animated-hover faa-fast"
-            ></i>
-            <h4>Langages</h4>
-            <hr />
-            <div class="row">
-              <div class="col-6">
-                <p>HTML/CSS</p>
-                <p>PHP</p>
-                <p>JavaScript</p>
-              </div>
-              <div class="col-6">
-                <p>Java</p>
-                <p>C#</p>
-                <p>Python</p>
-              </div>
-            </div>
+          <p class="mt-4 text-center">
+            Je m’appelle Kilian Marmilliot, j’ai 19 ans et je suis passionné
+            par l’informatique depuis des années. <br />J’ai acquis des
+            compétences, dans le cadre de mon BTS SIO, en développement
+            d’applications et en développement WEB.<br />
+            De Plus Motivé, observateur, sociable et flexible, j’apprends vite
+            et serai ravi de me joindre à vos équipes.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" style="background-color: #000000" id="parcours">
+    <div data-aos="fade-up-right" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true"
+      class="container text-center pb-4">
+      <h2 class="mb-5">Mon Parcours</h2>
+      <div class="flex-parent mt-5">
+        <div class="input-flex-container mt-5">
+          <div class="input">
+            <span data-year="2017 - 2019" data-info="BAC STI2D"></span>
           </div>
-
-          <div data-aos="fade-up" class="col-md-4 col-sm-12 text-center mb-5">
-            <i
-              class="fas fa-database fa-3x faa-tada animated-hover faa-fast"
-            ></i>
-            <h4>Base de données</h4>
-            <hr />
-            <div class="row text-center">
-              <p> SQL,PL/SQL</p>
-              <p> MySQL,PostgreSQL</p>
-              <p> Laragon,WampServer,PgAdmin</p>
-            </div>
+          <div class="input active">
+            <span data-year="2019 - 2021" data-info="BTS SIO"></span>
           </div>
+          <div class="input">
+            <span data-year="Mon Projet futur" data-info="Licence"></span>
+          </div>
+        </div>
+        <div class="description-flex-container">
+          <p>
+            BAC STI2D spécialité SIN (Système d'Information et Numérique)
+            Mention très bien
+          </p>
+          <p class="active">
+            BTS SIO spécialité SLAM (Solutions Logicielles & Applications
+            Métiers)
+          </p>
+          <p>Licence en Alternance</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-          <div data-aos="fade-up" class="col-md-4 col-sm-12 text-center mb-5">
-            <i
-              class="fab fa-bootstrap fa-3x faa-tada animated-hover faa-fast"
-            ></i>
-            <h4>Framework</h4>
-            <hr />
-            <div class="row text-center">
-              <p>Bootstrap</p>
-              <p>Jquery</p>
-              <p>vueJS</p>
+  <!-- Compétences -->
+  <div class="container-fluid" style="background: linear-gradient(to bottom, #198cc2, #0079ae)">
+    <div class="row text-center" id="competences">
+      <h2 class=" mb-5">Compétences</h2>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div data-aos="fade-up" data-aos-once="true" class="col-md-4 col-sm-12 text-center mb-5">
+          <i class="fas fa-laptop-code fa-3x faa-tada animated-hover faa-fast"></i>
+          <h4>Langages</h4>
+          <hr />
+          <div class="row">
+            <div class="col-6">
+              <p>HTML/CSS</p>
+              <p>PHP</p>
+              <p>JavaScript</p>
+            </div>
+            <div class="col-6">
+              <p>Java</p>
+              <p>C#</p>
+              <p>Python</p>
             </div>
           </div>
         </div>
 
-        <div data-aos="fade-up" class="row text-center">
-          <div class="col-md-6 col-sm-12 text-center mb-5">
-            <i
-              class="fab fa-wordpress fa-3x faa-tada animated-hover faa-fast"
-            ></i>
-            <h4>CMS</h4>
-            <hr />
-            <div class="row text-center">
-              <p>WordPress</p>
-            </div>
+        <div data-aos="fade-up" data-aos-once="true" class="col-md-4 col-sm-12 text-center mb-5">
+          <i class="fas fa-database fa-3x faa-tada animated-hover faa-fast"></i>
+          <h4>Base de données</h4>
+          <hr />
+          <div class="row text-center">
+            <p> SQL,PL/SQL</p>
+            <p> MySQL,PostgreSQL</p>
+            <p> Laragon,WampServer,PgAdmin</p>
           </div>
+        </div>
 
-          <div data-aos="fade-up" class="col-md-6 col-sm-12 text-center mb-5">
-            <i
-              class="fas fa-toolbox fa-3x faa-tada animated-hover faa-fast"
-            ></i>
-            <h4>Outils et Autres</h4>
-            <hr />
-            <div class="row">
-              <div class="col-6">
-                <p>Git</p>
-                <p>Trello</p>
-                <p>Jira</p>
-              </div>
-              <div class="col-6">
-                <p>WinSCP</p>
-                <p>Suite Office</p>
-                <p>Serveur : Apache, Samba, TomCat</p>
-              </div>
+        <div data-aos="fade-up" data-aos-once="true" class="col-md-4 col-sm-12 text-center mb-5">
+          <i class="fab fa-bootstrap fa-3x faa-tada animated-hover faa-fast"></i>
+          <h4>Framework</h4>
+          <hr />
+          <div class="row text-center">
+            <p>Bootstrap</p>
+            <p>Jquery</p>
+            <p>vueJS</p>
+          </div>
+        </div>
+      </div>
+
+      <div data-aos="fade-up" data-aos-once="true" class="row text-center">
+        <div class="col-md-6 col-sm-12 text-center mb-5">
+          <i class="fab fa-wordpress fa-3x faa-tada animated-hover faa-fast"></i>
+          <h4>CMS</h4>
+          <hr />
+          <div class="row text-center">
+            <p>WordPress</p>
+          </div>
+        </div>
+
+        <div data-aos="fade-up" data-aos-once="true" class="col-md-6 col-sm-12 text-center mb-5">
+          <i class="fas fa-toolbox fa-3x faa-tada animated-hover faa-fast"></i>
+          <h4>Outils et Autres</h4>
+          <hr />
+          <div class="row">
+            <div class="col-6">
+              <p>Git</p>
+              <p>Trello</p>
+              <p>Jira</p>
+            </div>
+            <div class="col-6">
+              <p>WinSCP</p>
+              <p>Suite Office</p>
+              <p>Serveur : Apache, Samba, TomCat</p>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- cv -->
-    <!-- <div class="container-fluid mb-5" style="color:black;">
-    <div class="container">
-      <div class="row text-center">
-        <h2 style="color:black;" id="cv">Curriculum vitae</h2>
-      </div>
-      <div class="row text-center">
-        <div class="col-sm-6 col-12 text-center mb-5 mt-4">
-          <button class="btn btn-secondary" style="border-radius: 50%;"><a href="Marmilliot_Kilian_CV.pdf"
-              target="_blank">Voir mon cv </a></button>
-        </div>
-        <div class="col-sm-6 col-12 text-center mb-5 mt-sm-4">
-          <button class="btn btn-secondary " style="border-radius: 50%;"><a href="Marmilliot_Kilian_CV.pdf"
-              download="Marmilliot_Kilian_CV.pdf">Télécharger mon cv </a></button>
-        </div>
+
+  <section>
+    <div class="container-fluid" data-aos="fade-up" data-aos-once="true" id="realisation">
+      <div class="text-center ">
+        <h2 style="color: black" class="pt-4">Réalisations</h2>
       </div>
 
-
-    </div>
-
-  </div> -->
-    <section>
-      <div class="container-fluid mt-4" data-aos="fade-up" id="realisation">
-        <div class="text-center mb-4">
-          <h2 style="color: black">Réalisations</h2>
-        </div>
-
-        <div id="filters" class="text-center button-group">
-          <button class="filtres btn activeBtnTrie" data-filter="*">
-            Toutes les réalisations
-          </button>
-          <button class="filtres btn" data-filter=".bts">BTS</button>
-          <button class="filtres btn" data-filter=".stage">Stage</button>
-          <button data-filter=".perso" class="btn filtres">Personnel</button>
-        </div>
-        <div class="container mt-5">
-          <div class="grid row">
-            <div class="element-item bts col-lg-4 col-12 hover01">
-              <div class="projet">
-                <div class="text-center">
-                  <h4 class="title">BTS - Les Apprentis Epanouis</h4>
-                </div>
-                <div class="projet-image text-center">
-                  <img
-                    src="img/apprentis.png"
-                    alt=""
-                    class="img-fluid"
-                    width="197px"
-                  />
-                </div>
-                <div class="projet-text">
-                  <div class="row text-center">
-                    <p>Site Web pour une association</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="element-item stage col-lg-4 col-12 hover01">
-              <a href="stage.html">
-                <div class="projet">
-                  <div class="text-center">
-                    <h4 class="title">Stage - Com & Company</h4>
-                  </div>
-                  <div class="projet-image text-center ">
-                    <img src="img/Hermes.png" alt="" class="img-fluid" />
-                  </div>
-                  <div class="projet-text">
-                    <div class="row text-center">
-                      <p>
-                        Stage de seconde année de BTS SIO dans l'entreprise Com &
-                        Company
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <div class="element-item perso col-lg-4 col-12 hover01">
-              <div class="projet">
-                <div class="text-center">
-                  <h4 class="title">Personnel - Maintenance de locaux</h4>
-                </div>
-                <div class="projet-image text-center ">
-                  <img
-                    src="img/maintenance.png"
-                    alt=""
-                    class="img-fluid"
-                    width="350px"
-                  />
-                </div>
-                <div class="projet-text">
-                  <div class="row text-center">
-                    <p>Application Web pour maintenance de locaux</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="element-item bts col-lg-4 col-12 hover01">
-              <div class="projet">
-                <div class="text-center mb-3">
-                  <h4 class="title">BTS - Gedima'Gination</h4>
-                </div>
-                <div class="projet-image text-center ">
-                  <img
-                    src="img/logo-gedimat.png"
-                    alt=""
-                    class="img-fluid"                  
-                  />
-                </div>
-                <div class="projet-text">
-                  <div class="row text-center" style="margin:45px">
-                    <p>Jeux Concours </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="element-item bts col-lg-4 col-12 hover01">
-              <div class="projet">
-                <div class="text-center mb-3">
-                  <h4 class="title">BTS - Gedima'Gination</h4>
-                </div>
-                <div class="projet-image text-center ">
-                  <img
-                    src="img/odoo.png"
-                    alt=""
-                    class="img-fluid"                  
-                  />
-                </div>
-                <div class="projet-text">
-                  <div class="row text-center">
-                    <p>Intégration d'un fichier xlsx en base de données </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
+      <div id="filters" class="text-center button-group mt-5 mb-5">
+        <button class="filtres btn activeBtnTrie" data-filter="*">
+          Toutes les réalisations
+        </button>
+        <button class="filtres btn" data-filter=".bts">BTS</button>
+        <button class="filtres btn" data-filter=".stage">Stage</button>
+        <button data-filter=".perso" class="btn filtres">Personnel</button>
       </div>
-    </section>
+      <div class="container mt-5">
+        <div class="grid row">
 
-
-
-    <section id="veille">
-      <div class="container-fluid mt-4" data-aos="fade-up" id="Veille"  style="background-color: rgba(43, 158, 216, 0);">
-        <div class="text-center mb-4">
-          <h2 style="color: black">Veille technologique</h2>
-        </div>
-
-      
-        <div class="container mt-5 pb-5">
-          <div class="row ">
-            <div class="col-lg-4 col-12 hover01">
-              <div class="veilleTech">
-                <div class="text-center">
-                  <h4 class="title">Raspberry PI</h4>
-                </div>
-                <div class="projet-image text-center">
-                  <img
-                    src="img/raspberry.png"
-                    alt=""
-                    class="img-fluid"
-                    width="125px"
-                  />
-                </div>
-                <div class="projet-text">
-                  <div class="row text-center">
-                    <p>Serveur - micro-ordinateur</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-12 hover01">
-              <div class="veilleTech">
-                <div class="text-center">
-                  <h4 class="title">Intelligence Artificielle</h4>
-                </div>
-                <div class="projet-image text-center">
-                  <img
-                    src="img/intelligence_artificielle.png"
-                    alt=""
-                    class="img-fluid"
-                    width="238px"
-                  />
-                </div>
-                <div class="projet-text">
-                  <div class="row text-center">
-                    <p> Fonctionnement d'une IA  </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-12 hover01">
-              <div class="veilleTech">
-                <div class="text-center">
-                  <h4 class="title">Vue JS</h4>
-                </div>
-                <div class="projet-image text-center">
-                  <img
-                    src="img/vue.png"
-                    alt=""
-                    class="img-fluid"
-                    width="190px"
-                  />
-                </div>
-                <div class="projet-text">
-                  <div class="row text-center">
-                    <p>technologies JavaScript</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-           
-
-          </div>
-        </div>
-        <div class="text-center pb-3">
-        <a href="veilleTech.html"><button class="btn btn-primary">En Savoir PLus</button></a>
-      </div>
-      </div>
-    </section>
-
-    <!-- <section>
-
-  <div class=" container-fluid mt-4" data-aos="fade-up" id="realisation">
-    <div class="text-center mb-4">
-      <h2 style="color:black;"> Réalisations </h2>
-    </div>
-
-    <div id="filtres" class="text-center ">
-      <button class=" filtres btn activeBtnTrie" data-filter="*">Toutes les réalisations </button>
-      <button class=" filtres btn " data-filter=".bts">BTS</button>
-      <button class=" filtres btn " data-filter=".stage">Stage</button>
-      <button data-filter=".perso" class="btn filtres ">Personnelle</button>
-    </div>
-
-    <div class="container  mt-5" id="grid">
-      <div class="row grid" >
-
-
-        <div class=" col-lg-4 bts element-item  ">
-          <div class="projet">
-            <div class=" text-center">
-              <h4 class="title">BTS - Les Apprentis Epanouis</h4>
-            </div>
-            <div class="projet-image text-center">
-              <img src="img/apprentis.png" alt="" class="img-fluid" width="197px">
-            </div>
-            <div class="projet-text">
-              <div class="row text-center">
-                <p>Site Web pour une association</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class=" col-lg-4 stage element-item ">
-          <a href="stage.html">
-            <div class="projet">
-              <div class=" text-center">
-                <h4 class="title">Stage - Stage chez Com & Company</h4>
+          <!-- <div class="element-item bts col-lg-4 col-12 hover01">
+            <div class="projet" onclick="window.location = 'lesApprentis.html';">
+              <div class="text-center">
+                <h4 class="title">BTS - Les Apprentis Epanouis</h4>
               </div>
               <div class="projet-image text-center">
-                <img src="img/Hermes.png" alt="" class="img-fluid">
+                <img src="img/apprentis.png" alt="" class="img-fluid" width="197px" />
               </div>
               <div class="projet-text">
                 <div class="row text-center">
-                  <p>Stage de second année de BTS SIO dans l'entreprise Com & Company</p>
+                  <p>Site Web pour une association</p>
                 </div>
               </div>
             </div>
-          </a>
-        </div>
+          </div> -->
 
 
-        <div class=" col-lg-4 perso element-item ">
-          <div class="projet">
-            <div class=" text-center">
-              <h4 class="title">Personelle - Maintenance de locaux</h4>
+          <div class="element-item stage col-lg-4 col-12 hover01">
+
+            <div class="projet" onclick="window.location = 'stage.html'; ">
+              <div class="text-center">
+                <h4 class="title">Stage - Com & Company</h4>
+              </div>
+              <div class="projet-image text-center ">
+                <img src="img/Hermes.png" alt="" class="img-fluid" />
+              </div>
+              <div class="projet-text">
+                <div class="row text-center pt-5">
+                  <p>
+                    Stage de seconde année de BTS SIO dans l'entreprise Com &
+                    Company
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="projet-image text-center">
-              <img src="img/maintenance.png" alt="" class="img-fluid" width="350px">
-            </div>
-            <div class="projet-text">
-              <div class="row text-center">
-                <p>Applications Web pour Maintenance de locaux</p>
+
+          </div>
+
+          <div class="element-item perso col-lg-4 col-12 hover01">
+            <div class="projet" onclick="window.location = 'maintenance.html';">
+              <div class="text-center">
+                <h4 class="title">Personnel - Maintenance </h4>
+              </div>
+              <div class="projet-image text-center ">
+                <img src="img/maintenance.png" alt="" class="img-fluid" width="290px"  />
+              </div>
+              <div class="projet-text">
+                <div class="row text-center pt-5">
+                  <p>Application Web pour maintenance de locaux</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-      </div>
-    </div>
-  </div>
-</section> -->
+          <div class="element-item bts col-lg-4 col-12 hover01">
+            <div class="projet" onclick="window.location = 'gedimagination.html';">
+              <div class="text-center mb-3">
+                <h4 class="title">BTS - Gedima'Gination</h4>
+              </div>
+              <div class="projet-image text-center ">
+                <img src="img/logo-gedimat.png" alt="" class="img-fluid" />
+              </div>
+              <div class="projet-text">
+                <div class="row text-center pt-5" >
+                  <p>Jeux Concours </p>
+                </div>
+              </div>
+            </div>
 
-    <!-- 
-  <div class="mixbtns">
-    <button class=" filter btn activeBtnTrie" data-filter="all">Toutes les réalisations </button>
-      <button class=" filter btn " data-filter=".bts">BTS</button>
-      <button class=" filter btn " data-filter=".stage">Stage</button>
-      <button  class="btn" data-filter=".perso">Personnelle</button>
-  </div>
-
-  <div class="mymixcont">
-    <div class="mix bts"> bts </div>
-      <div class="mix stage"> stage </div>
-        <div class="mix perso"> perso </div>
-  </div> -->
-
-    <!-- Formation -->
-    <!-- <div id="Parcours" class="mt-5">
-    <div class="container-fluid mt-5" id="Parcours-text">
-      <div class="container">
-        <div class="row text-center mb-4">
-          <h2>Mon Parcours</h2>
-        </div>
-        <div class="row text-center">
-          <div class="col-4">
-            <h4>Mon Projet</h4>
-            <p>Licence en Alternance</p>
           </div>
-          <div class="col-4">
-            <h4>2019 - 2021</h4>
-            <p>BTS SIO spécialité SLAM<br>
-              (Solutions Logicielles & Applications Métiers)</p>
-          </div>
-          <div class="col-4">
-            <h4>2017 - 2019</h4>
-            <p>BAC STI2D spécialité SIN<br>
-              (Système d'Information et Numérique)</p>
+
+          <div class="element-item bts col-lg-4 col-12 hover01">
+            <div class="projet" onclick="window.location = 'data2odoo.html';">
+              <div class="text-center ">
+                <h4 class="title">BTS - DATA2ODOO</h4>
+              </div>
+              <div class="projet-image text-center ">
+                <img src="img/odoo.png" alt="loo odoo" class="img-fluid" width="390px" />
+              </div>
+              <div class="projet-text">
+                <div class="row text-center ">
+                  <p>Intégration d'un fichier xlsx en base de données </p>
+                </div>
+              </div>
+            </div>
           </div>
 
         </div>
       </div>
     </div>
-  </div> -->
-    <!-- Réalisations -->
-    <!-- Veille Tech -->
-    <!-- Contact -->
+  </section>
 
-    <div class="container-fluid" id="contact">
-      <div class="row">
-        <div class="text-center contact">
-          <h2 class="mt-3">Contact</h2>
-          <div class="container mt-4" data-aos="fade-up">
-            <div class="row text-center">
-              <a href="tel:+33695285862" class="TransitionCouleur">
-                <i
-                  class="fas fa-mobile-alt fa-2x faa-tada animated-hover faa-fast"
-                ></i
-                ><br />
-                <p style="display: inline; font-weight: bold; font-size: 17px">
-                  06 95 28 58 62
-                </p>
-              </a>
+
+
+  <section id="veille">
+    <div class="container-fluid pt-4" data-aos="fade-up" data-aos-once="true"
+      style="background-color: rgba(43, 158, 216, 0);">
+      <div class="text-center mb-4">
+        <h2 style="color: black">Veille Technologique</h2>
+      </div>
+
+
+      <div class="container mt-5 pb-5">
+        <div class="row ">
+          <div class="col-lg-4 col-12 hover01">
+            <div class="veilleTech" onclick="window.location = 'veilleTech.html#raspberry';">
+              <div class="text-center">
+                <h4 class="title">Raspberry PI</h4>
+              </div>
+              <div class="projet-image text-center">
+                <img src="img/raspberry.png" alt="" class="img-fluid" width="125px" />
+              </div>
+              <div class="projet-text">
+                <div class="row text-center">
+                  <p>Serveur - micro-ordinateur</p>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="container mt-4" data-aos="fade-up">
-            <div class="row text-center">
-              <a
-                href="mailTo:kilian.marmilliot@gmail.com"
-                class="TransitionCouleur"
-              >
-                <i
-                  class="far fa-envelope fa-2x faa-tada animated-hover faa-fast"
-                ></i
-                ><br />
-                <p style="display: inline; font-weight: bold; font-size: 17px">
-                  kilian.marmilliot@gmail.com
-                </p>
-              </a>
+          <div class="col-lg-4 col-12 hover01">
+            <div class="veilleTech" onclick="window.location = 'veilleTech.html#ia';">
+              <div class="text-center">
+                <h4 class="title">Intelligence Artificielle</h4>
+              </div>
+              <div class="projet-image text-center">
+                <img src="img/intelligence_artificielle.png" alt="" class="img-fluid" width="238px" />
+              </div>
+              <div class="projet-text">
+                <div class="row text-center">
+                  <p> Fonctionnement d'une IA </p>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="container mt-4" data-aos="fade-up">
-            <div class="row text-center">
-              <a
-                href="https://www.google.fr/maps/place/143+Impasse+du+Verdier,+69560+Sainte-Colombe/@45.5251736,4.8608676,16.5z/data=!4m5!3m4!1s0x47f4dfa5520ef935:0x3038435190cf55f7!8m2!3d45.5253894!4d4.8641551"
-                target="_blank"
-                class="TransitionCouleur"
-              >
-                <i
-                  class="fas fa-map-marker-alt fa-2x faa-tada animated-hover faa-fast"
-                ></i
-                ><br />
-                <p style="display: inline; font-weight: bold; font-size: 17px">
-                  Sainte-Colombe 69560
-                </p>
-              </a>
+          <div class="col-lg-4 col-12 hover01">
+            <div class="veilleTech" onclick="window.location = 'veilleTech.html#vuejs';">
+              <div class="text-center">
+                <h4 class="title">Vue JS</h4>
+              </div>
+              <div class="projet-image text-center">
+                <img src="img/vue.png" alt="" class="img-fluid" width="190px" />
+              </div>
+              <div class="projet-text">
+                <div class="row text-center">
+                  <p>Framework JavaScript</p>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="container mt-4" data-aos="fade-up">
-            <div class="row text-center">
-              <a
-                href="Marmilliot_Kilian_CV.pdf"
-                target="_blank"
-                class="TransitionCouleur"
-              >
-                <i class="far fa-eye fa-2x faa-tada animated-hover faa-fast"></i
-                ><br />
-                <p style="display: inline; font-weight: bold; font-size: 17px">
-                  Voir Mon CV
-                </p>
-              </a>
-            </div>
-          </div>
-          <div class="container mt-4" data-aos="fade-up">
-            <div class="row text-center">
-              <a
-                href="Marmilliot_Kilian_CV.pdf"
-                download="Marmilliot_Kilian_CV.pdf"
-                target="_blank"
-                class="TransitionCouleur"
-              >
-                <i
-                  class="fas fa-download fa-2x faa-tada animated-hover faa-fast"
-                ></i
-                ><br />
-                <p style="display: inline; font-weight: bold; font-size: 17px">
-                  Télécharger mon CV
-                </p>
-              </a>
-            </div>
-          </div>
-          <div class="container mt-4" data-aos="fade-right">
-            <div class="row text-center">
-              <a
-                href="https://fr.linkedin.com/in/kilian-marmilliot-a401781a3"
-                target="_blank"
-                class="TransitionCouleur"
-              >
-                <i
-                  class="fab fa-linkedin fa-2x faa-tada animated-hover faa-fast"
-                ></i
-                ><br />
-                <p style="display: inline; font-weight: bold; font-size: 17px">
-                  Linkedin
-                </p>
-              </a>
-            </div>
-          </div>
+
+
+
+
         </div>
+      </div>
+      <div class="text-center pb-3">
+        <a href="veilleTech.html"><button class="btn btn-primary">En Savoir PLus</button></a>
       </div>
     </div>
+  </section>
 
-    <!-- 
-  <div class="container-fluid mt-5 contact">
-    <div class="container">
-      <div class="row text-center">
-        <h2 id="contact">Contact</h2>
+
+  <!-- Contact -->
+
+
+
+  <div class="container-fluid" id="contact">
+    <div class="row">
+      <div class="text-center contact">
+        <h2 class="mt-lg-3 mb-4 mb-lg-5">Contact</h2>
+
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">
+                <a href="Marmilliot_Kilian_CV.pdf" target="_blank" class="TransitionCouleur">
+                  <i class="far fa-eye fa-2x faa-tada animated-hover faa-fast"></i><br />
+                  <p style="display: inline; font-weight: bold; font-size: 17px">
+                    Voir CV
+                  </p>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="Marmilliot_Kilian_CV.pdf" download="Marmilliot_Kilian_CV.pdf" target="_blank"
+                  class="TransitionCouleur">
+                  <i class="fas fa-download fa-2x faa-tada animated-hover faa-fast"></i><br />
+                  <p style="display: inline; font-weight: bold; font-size: 17px">
+                    Télécharger CV
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+
+        <div class="row mt-lg-5 pt-lg-5">
+
+
+
+
+          <div class="col-lg-4 text-center mt-4" data-aos="fade-up" data-aos-once="true">
+            <a href="tel:+33695285862" class="TransitionCouleur">
+              <i class="fas fa-mobile-alt fa-2x faa-tada animated-hover faa-fast"></i><br />
+              <p style="display: inline; font-weight: bold; font-size: 17px">
+                06 95 28 58 62
+              </p>
+            </a>
+          </div>
+
+
+
+          <div class=" col-lg-4  text-center mt-4 " data-aos="fade-up" data-aos-once="true">
+            <a href="mailTo:kilian.marmilliot@gmail.com" class="TransitionCouleur">
+              <i class="far fa-envelope fa-2x faa-tada animated-hover faa-fast"></i><br />
+              <p style="display: inline; font-weight: bold; font-size: 17px">
+                kilian.marmilliot@gmail.com
+              </p>
+            </a>
+          </div>
+
+
+
+          <div class="col-lg-4  text-center mt-4" data-aos="fade-up" data-aos-once="true">
+            <a href="https://www.google.com/maps/place/69560+Sainte-Colombe/@45.5247136,4.8406754,14z/data=!3m1!4b1!4m5!3m4!1s0x47f4dfb9f47c1097:0x408ab2ae4bb1dd0!8m2!3d45.5269123!4d4.8574205"
+              target="_blank" class="TransitionCouleur">
+              <i class="fas fa-map-marker-alt fa-2x faa-tada animated-hover faa-fast"></i><br />
+              <p style="display: inline; font-weight: bold; font-size: 17px">
+                Sainte-Colombe 69560
+              </p>
+            </a>
+          </div>
+          <div>
+
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+        </div>
       </div>
-      <div class="row">
-        <div class="col-4 text-center">
-          <i class="fas fa-mobile-alt"></i>
-          <p style="display:inline; font-weight:bold;font-size:15px"> 06 95 28 58 62</p>
 
-        </div>
-        <div class="col-4 text-center">
 
-          <a
-            href="https://www.google.fr/maps/place/143+Impasse+du+Verdier,+69560+Sainte-Colombe/@45.5251736,4.8608676,16.5z/data=!4m5!3m4!1s0x47f4dfa5520ef935:0x3038435190cf55f7!8m2!3d45.5253894!4d4.8641551"><img
-              alt="Logo Téléphone" class="align-self-center" src="img/tel.png" width="25px"><img></a>
 
-        </div>
 
-        <div class="col-4 text-center">
-          <img alt="Logo E-Mail" class="align-self-center" src="img/mail.png" width="25px"><img>
-          <p style="display:inline;color:black;font-weight:bold; font-size:15px">ma future adresse email</p>
 
-        </div>
+      <!-- Footer -->
+
+      <div id="palpatine1" style="display: none;">
       </div>
-    </div>
-  </div> -->
+      <div id="palpatine2" style="display: none;">
+      </div>
+      <div id="yoda" style="display: none;">
+      </div>
+      <div id="porg" style="display: none;">
+      </div>
 
-    <!-- Footer -->
 
-    <footer class="container-fluid text-center pt-3 pb-3">
-      <p style="padding: 0px; margin: 0px; color: white">
-        ©2021 - Kilian Marmilliot
-      </p>
-    </footer>
 
-    <script
-      type="text/JavaScript"
-      language="JavaScript"
-      src="lib/jquery-3.5.1.min.js"
-    ></script>
-    <script
-      type="text/JavaScript"
-      language="JavaScript"
-      src="lib/bootstrap.min.js"
-    ></script>
-    <script
-      type="text/JavaScript"
-      language="JavaScript"
-      src="lib/anime.min.js"
-    ></script>
-    <script
-      type="text/JavaScript"
-      language="JavaScript"
-      src="lib/typed.min.js"
-    ></script>
-    <script
-      type="text/JavaScript"
-      language="JavaScript"
-      src="lib/aos.js"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/053fcbe95f.js"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      type="text/JavaScript"
-      language="JavaScript"
-      src="js/portfolio.js"
-    ></script>
-    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-  </body>
+      <!-- <footer class="container-fluid text-center pt-3 pb-3 footer text-center">
+          <p style="padding: 0px; margin: 0px; color: white">
+            ©2021 - Kilian Marmilliot
+          </p>
+
+          
+          <div class="pt-5 row text-center" data-aos="fade-right" data-aos-once="true">
+            <a href="https://fr.linkedin.com/in/kilian-marmilliot-a401781a3" target="_blank"
+              class="TransitionCouleur">
+              <i class="fab fa-linkedin fa-2x faa-tada animated-hover faa-fast"></i><br />
+              <p style="display: inline; font-weight: bold; font-size: 17px">
+                Linkedin
+              </p>
+            </a>
+            
+            <a href="https://fr.linkedin.com/in/kilian-marmilliot-a401781a3" target="_blank"
+              class="TransitionCouleur">
+              <i class="fab fa-linkedin fa-2x faa-tada animated-hover faa-fast"></i><br />
+              <p style="display: inline; font-weight: bold; font-size: 17px">
+                Linkedin
+              </p>
+            </a>
+          </div>
+        </footer> -->
+
+
+      <footer id="footer" class="pt-5 pb-5">
+        <div class="container-fluid text-center">
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a href="https://github.com/kilian0111/" target="_blank" class="TransitionCouleur">
+                    <i class="fab fa-github fa-2x faa-tada animated-hover faa-fast"></i><br />
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://fr.linkedin.com/in/kilian-marmilliot-a401781a3" target="_blank"
+                    class="TransitionCouleur">
+                    <i class="fab fa-linkedin fa-2x faa-tada animated-hover faa-fast"></i><br />
+
+                  </a>
+                </li>
+
+                <li class="list-inline-item">
+                  <a href="mentionLegales.html" target="_blank" class="TransitionCouleur">
+                    <i class="fas fa-balance-scale fa-2x faa-tada animated-hover faa-fast"></i><br />
+                  </a>
+                </li>
+
+              </ul>
+              <p style=" color: white">
+                ©2021 - Kilian Marmilliot
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <script type="text/JavaScript" language="JavaScript" src="lib/jquery-3.5.1.min.js"></script>
+      <script type="text/JavaScript" language="JavaScript" src="lib/bootstrap.min.js"></script>
+      <script type="text/JavaScript" language="JavaScript" src="lib/anime.min.js"></script>
+      <script type="text/JavaScript" language="JavaScript" src="lib/typed.min.js"></script>
+      <script type="text/JavaScript" language="JavaScript" src="lib/aos.js"></script>
+      <script src="https://kit.fontawesome.com/053fcbe95f.js" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/egg.js/1.0/egg.min.js"></script>
+      <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+      <script type="text/JavaScript" language="JavaScript" src="js/portfolio.js"></script>
+
+</body>
+
 </html>

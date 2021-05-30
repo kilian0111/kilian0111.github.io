@@ -1,0 +1,552 @@
+<!Doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title> Marmilliot Kilian </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="img/logo.png" rel="shortcut icon">
+    <link href="lib/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/font-awesome-animation.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="lib/aos.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <style>
+        .h2,
+        h2,
+        span,
+        h4,
+        h5,
+        h6 {
+            color: rgb(202, 4, 44);
+        }
+
+        .cadre {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="preloader-cont">
+        <h2 class="loader text-center"><span id="preload"></span> </h2>
+    </div>
+
+    <div id="progress"></div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark " style="position:sticky; top:0px;">
+        <div class="container-fluid ">
+            <img class="navbar-brand" src="img/logo.png" width="55px" onclick="window.location = 'index.html';">
+            <div id="container" class="navbar-toggler">
+                <div id="burger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="bun top"></div>
+                    <div class="filling"></div>
+                    <div class="bun bottom"></div>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse text-lg-center justify-content-lg-center " id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link color" href="index.html#parcours">Mon Parcours</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color" href="index.html#competences">Compétences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color active" href="index.html#realisation">Réalisations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color" href="index.html#veille">Veille Tech</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color" href="index.html#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid pt-5 pb-4" style="background-color: rgb(202,4,44);">
+        <div class="row text-center">
+            <h2 class="h1 text-center"> Gedima'Gination</h2>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-3 ">
+        <div class="row text-center">
+            <h2 class="h2 text-center">Contexte</h2>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6 text-center align-self-center">
+                <img src="img/logo-gedimat.png" alt="logo gedimat" width="300px">
+            </div>
+            <div class="col-lg-6  align-self-center">
+                <p> Ce projet se passe dans le même contexte que DATA2ODOO. Nous nous retrouvons ainsi
+                    chez Interway, une ESN (Entrepise de Services Numériques).<br> Ici, Interway travaille pour le
+                    groupe
+                    GEDIMAT. La société NEGOMAT vient tout juste d'entrer dans le réseau d'adhérents de GEDIMAT. Pour
+                    fêter
+                    cet événement, NEGOMAT a décidé d'organiser un jeu concours nommé GEDIMA'GINATION.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid mt-5">
+        <div class="row text-center">
+            <h2 class="h2">Principe du jeu </h2>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <p> Le jeu est ouvert aux clients de NEGOMAT.
+                <br> Pour participer, il suffit de s’inscrire et poster une photo
+                d’une réalisation faite à partir de matériaux achetés chez
+                NEGOMAT.<br>
+                <br>
+                Dans un deuxième temps, les clients de passage dans le magasin voteront pour leurs trois
+                réalisations préférées.
+                <br> Les photos des réalisations seront consultables sur un écran TV.
+                <br>
+                Les
+                clients pourront donc utiliser une tablette installée dans le magasin pour saisir leurs votes.
+                <br>
+                A la fin du concours, seront désignés les trois gagnants qui seront récompensés par
+                des bons d’achat.
+            </p>
+        </div>
+    </div>
+
+
+
+
+    <div class="container-fluid mt-5">
+        <div class="row text-center">
+            <h2 class="h2"> Objectif et Problématique </h2>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <p class=" ">
+                L'objectif était d'avoir un site internet et une application mobiles qui répondent aux critères ci-dessous :
+                <br> <br>
+                <span> APPLICATION WEB </span>: <br> <br> Cette application permettra :
+                <br>
+                <br>
+
+
+                - au gérant du magasin, de publier le règlement et le calendrier du jeu concours
+                ainsi que les résultats (classement des trois meilleures réalisations),
+                <br>
+
+                - aux participants, de s’inscrire et de poster leur photo accompagnée d’un titre,
+                d’un descriptif et d’une date de réalisation des travaux.
+
+
+                <br>
+                <br>
+
+                Les données de l’application web seront hébergées dans une base de données MySQL.
+                dédiée.
+            </p>
+            <br>
+
+            <p>
+                <span> - APPLICATION MOBILE : </span>
+                <br> <br>
+
+                Avant le début des votes, les données caractérisant les photos des participants seront
+                importées dans une base de données embarquée dans l’application (base SQLite) via
+                un web service.
+                <br>
+                <br>
+                Pendant toute la période de vote, les votes des clients seront enregistrés dans la base
+                de données embarquée.
+                <br>
+                <br>
+                Lorsque la période de vote sera terminée, toutes les données relatives aux votes seront
+                envoyées dans la base MySQL de l’application web via un web service.
+                <br>
+                <br>
+
+                Pendant toute la période
+                des votes, l’application mobile fonctionnera en mode déconnecté.
+            </p>
+
+
+        </div>
+    </div>
+
+
+
+
+    <div class="container-fluid mt-5 ">
+        <div class="row text-center">
+            <h2 class="h2 text-center"> Les technologies</h2>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <p>
+                <ul style="font-weight: bold;">
+
+                    <li>HTML / CSS</li>
+                    <li>PHP</li>
+                    <li>Odoo</li>
+                    <li>MySQL</li>
+                    <li>SQLlite</li>
+                    <li>Java</li>
+                    <li>Bootstrap</li>
+                    <li>javascript</li>
+                    <li>jQuery</li>
+                </ul>
+                </p>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div>
+
+
+                    <img src="img/java.png" alt="logo java" class="img-fluid" width="100px">
+                    <img src="img/bootstrap.png" alt="logo bootstrap" class="img-fluid" width="100px">
+                    <div class="mt-4">
+
+
+                        <img src="img/php.png" alt="logo java" class="img-fluid" width="100px">
+                        <img src="img/mysql.png" alt="logo java" class="img-fluid" width="100px">
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid mt-5 ">
+        <div class="row text-center">
+            <h2 class="h2 text-center">Gestion de projet </h2>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6 text-center align-self-center">
+                <img src="img/agile.jpg" alt="méthode agile" width="400px">
+            </div>
+            <div class="col-lg-6  align-self-center">
+
+                <p> Pour réaliser les différentes applications nous avons utilisé la conduite de projet en mode
+                    agile.<br> Nous avions donc des users stories à réaliser en sprint d'une semaine.
+                    <br>
+                    De plus, pour travailler en groupe nous avons utilisé Github ainsi qu'un serveur de base de données
+                    distant sur un Raspberry pi.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="row mt-4">
+            <div class="text-center">
+                <img src="img/sprint1.png" alt="sprint1" class="img-fluid" width="800px">
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container-fluid mt-5 ">
+        <div class="row text-center">
+            <h2 class="h2 text-center">Présentation de la solution</h2>
+        </div>
+    </div>
+
+
+
+
+    <div class="container mt-5">
+        <div class="row">
+            <img src="img/schemaGedimat.PNG" alt="schéma gedimat" class="img-fluid" width="500px">
+        </div>
+    </div>
+
+
+    <div class="container mt-5">
+        <div class="row ">
+            <div class="col-lg-3 align-self-center">
+                <p>
+                    MCD de l'application web :
+                </p>
+            </div>
+            <div class="col-lg-9 text-center">
+                <img src="img/mySQLBDD.PNG" alt="mcd SQL" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container mt-5">
+        <div class="row ">
+            <div class="col-lg-3 align-self-center">
+                <p>
+                    MCD de l'application mobile :
+                </p>
+            </div>
+
+            <div class="col-lg-9 text-center">
+                <img src="img/mcdSqllite.PNG" alt="mcd SQL" class="img-fluid">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid mt-5 ">
+        <div class="row text-center">
+            <h5 class=" text-center">Application Web : </h5>
+        </div>
+    </div>
+
+
+    <div class="container mt-5">
+        <div class="row ">
+            <div class="col-lg-9 text-center">
+                <img src="img/accueilGedimat.png" alt="accueil" class="img-fluid cadre">
+            </div>
+            <div class="col-lg-3 align-self-center">
+                <p>
+                    Page d'accueil du jeux concours Gedimagination
+                </p>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row ">
+            <div class="col-lg-3 align-self-center">
+                <p>
+                    Page pour se connecter à son compte si l'on en possède un
+                </p>
+            </div>
+
+            <div class="col-lg-9 text-center">
+                <img src="img/connexionGedimat.png" alt="accueil" class="img-fluid" width="200px">
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row ">
+            <div class="col-lg-9 text-center">
+                <img src="img/doubleauthentification.png" alt="accueil" class="img-fluid" width="200px">
+            </div>
+            <div class="col-lg-3 align-self-center">
+                <p>
+                    Sur notre site on a fait en sorte de se connecter avec une double authentification, ainsi on nous demande un
+                    code de validation par mail
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row ">
+            <div class="col-lg-3 align-self-center ">
+                <p>
+                    Ainsi une fois connecté, on peut participer au jeu concours. Le type de fichier autorisé est
+                    bloqué <br>
+                    (jpeg, jpg ,png, gif)
+                </p>
+            </div>
+
+            <div class="col-lg-9 text-center">
+                <img src="img/participer.png" alt="accueil" class="img-fluid cadre">
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row ">
+
+            <div class="col-lg-9 text-center">
+                <img src="img/s'inscire.png" alt="accueil" class="img-fluid cadre">
+            </div>
+            <div class="col-lg-3 align-self-center">
+                <p>
+                    Si on n'est pas inscrit, on peut s'inscrire en cliquant sur le bouton "s'inscrire"
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row ">
+            <div class="col-lg-3 align-self-center ">
+                <p>
+                    On peut aussi voir le classement des réalisations, s'il a été publié par le gérant du jeu
+                    concours. Ici nous sommes en vue gestionnaire
+                </p>
+            </div>
+
+            <div class="col-lg-9 text-center">
+                <img src="img/classementGedimat.png" alt="accueil" class="img-fluid cadre">
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row ">
+
+            <div class="col-lg-9 text-center">
+                <img src="img/SupprimerCompte.png" alt="accueil" class="img-fluid cadre">
+            </div>
+            <div class="col-lg-3 align-self-center">
+                <p>
+                    L'application web peut aussi nous permettre de modifier ou de supprimer notre compte
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5 ">
+        <div class="row text-center">
+            <h5 class=" text-center">Application Android : </h5>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row ">
+            <div class="col-lg-9 text-center">
+                <img src="img/menuAndroid.png" alt="accueil" class="img-fluid" width="200px">
+            </div>
+            <div class="col-lg-3 align-self-center">
+                <p>
+                    Page d'accueil de l'application Android.
+                    <br> Sur notre application Android seuls les gestionnaires
+                    peuvent se connecter pour importer ou exporter les données
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row ">
+
+            <div class="col-lg-3 align-self-center">
+                <p>
+                    Application android quand on est connecté en tant que gestionnaire
+
+                </p>
+            </div>
+            <div class="col-lg-9 text-center">
+                <img src="img/connecterAndoid.png" alt="accueil" class="img-fluid" width="200px">
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row ">
+            <div class="col-lg-9 text-center">
+                <img src="img/ticketAndoid.png" alt="accueil" class="img-fluid" width="200px">
+            </div>
+            <div class="col-lg-3 align-self-center">
+                <p>
+                    Pour pouvoir voter, il faut avoir acheter un article ; ainsi, dans notre application mobile nous
+                    demandons le numéro de ticket avant de passer à une autre étape
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row ">
+
+            <div class="col-lg-3 align-self-center">
+                <p>
+                    Ensuite, le votant doit utiliser un mail, ainsi que son nom et son prénom pour pouvoir vérifier si le
+                    vote est valide, s'il est bien un client de NEGOMAT
+                </p>
+            </div>
+            <div class="col-lg-9 text-center">
+                <img src="img/infovotantAndoid.png" alt="accueil" class="img-fluid" width="200px">
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row ">
+            <div class="col-lg-9 text-center">
+                <img src="img/MentionLegale.png" alt="accueil" class="img-fluid" width="200px">
+            </div>
+            <div class="col-lg-3 align-self-center">
+                <p>
+                    Ensuite, pour voter le client doit forcément accepter les mentions légales sur la collecte de ses
+                    données à caractère personnel
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-5">
+        <div class="row ">
+
+            <div class="col-lg-3 align-self-center">
+                <p>
+                    Enfin, le client peut voter pour une, deux ou trois de ses réalisations préférées
+                </p>
+            </div>
+            <div class="col-lg-9 text-center">
+                <img src="img/voteAndoid.png" alt="accueil" class="img-fluid" width="200px">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container-fluid mt-5 ">
+        <div class="row text-center">
+            <h2 class="h2 text-center">Bilan</h2>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <p>
+                Ce projet m’a permis de gagner en expérience au niveau de la maitrise du langage php et java.
+                En effet, ce sont les principaux langages utilisés dans ce projet.
+                <br>
+                De plus il m'a aussi permis de travailler avec la méthode agiles et de rendre des livrables chaque semaine.
+                </p>
+            </p>
+        </div>
+    </div>
+
+
+    <script type="text/JavaScript" language="JavaScript" src="lib/jquery-3.5.1.min.js"></script>
+    <script type="text/JavaScript" language="JavaScript" src="lib/bootstrap.min.js"></script>
+    <script type="text/JavaScript" language="JavaScript" src="lib/anime.min.js"></script>
+    <script type="text/JavaScript" language="JavaScript" src="lib/typed.min.js"></script>
+    <script type="text/JavaScript" language="JavaScript" src="lib/aos.js"></script>
+    <script src="https://kit.fontawesome.com/053fcbe95f.js" crossorigin="anonymous"></script>
+    <script type="text/JavaScript" language="JavaScript" src="js/portfolio.js"></script>
+
+</body>
+
+</html>

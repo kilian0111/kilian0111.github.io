@@ -18,11 +18,11 @@
         <h2 class="loader text-center"><span id="preload"></span> </h2>
     </div>
 
-
+    <div id="progress"></div>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark " style="position:sticky; top:0px;">
         <div class="container-fluid ">
-            <a href="#"><img class="navbar-brand" src="img/logo.png" width="55px"></a>
+            <img class="navbar-brand" src="img/logo.png" width="55px" onclick="window.location = 'index.html';">
             <div id="container" class="navbar-toggler">
                 <div id="burger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +43,7 @@
                         <a class="nav-link color" href="index.html#realisation">Réalisations</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link color" href="index.html#veille">Veille Tech</a>
+                        <a class="nav-link color active" href="index.html#veille">Veille Tech</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link color" href="index.html#contact">Contact</a>
@@ -108,7 +108,7 @@
             <div class="col-lg-6  align-self-center">
                 <p>
                     Les outils que j'utilise pour faire de la veille sont principalement les googles alertes ainsi que
-                    youtube qui me permait de faire de la veille mais aussi de m'autoformer.
+                    youtube qui me permettent de faire de la veille mais aussi de m'autoformer.
                 </p>
                 <div class="text-center">
                     <img src="img/youtube.png" width="100px">
@@ -121,7 +121,7 @@
 
     <div class="container-fluid mt-5 ">
         <div class="row text-center">
-            <h2 class="h2 text-center">Quand je fais de la veille ? </h2>
+            <h2 class="h2 text-center">Quand ? </h2>
         </div>
     </div>
 
@@ -133,7 +133,7 @@
                     <img src="img/alarme.jpg" width="200px">
                 </div>
                 <p>
-                    Je fais le plus souvent ma veille le soir vers 18h30. Une alarme est programmé à cette heure ainsi
+                    Je fais le plus souvent ma veille le soir vers 18h30. Une alarme est programmée à cette heure ainsi
                     que l'alerte google.
                 </p>
 
@@ -168,7 +168,7 @@
 
                 </div>
             </div>
-            <div class="col-lg-6  align-self-center">
+            <div class="col-lg-6  align-self-center" id="ia">
                 <h3 class="mt-2 mb-5"> L'intelligence artificielle</h3>
 
                 <p>
@@ -177,7 +177,7 @@
                     tous.
                 </p>
                 <p>
-                    De plus, certains articles sont intéressant pour s'apercevoir de l'évolution de l'intelligence
+                    De plus, certains articles sont intéressants pour s'apercevoir de l'évolution de l'intelligence
                     artificielle ; en effet, l'article <a
                         href="https://www.courrierinternational.com/article/informatique-lintelligence-artificielle-se-dote-de-cinq-sens">"L’intelligence
                         artificielle se dote de cinq sens" </a> nous montre que maintenant on expérimente
@@ -198,29 +198,28 @@
                 artificielle
                 peut trouver de nouvelles règles de jeux comme les échecs.
             </p>
-
-
         </div>
     </div>
 
 
-    <div class="container ">
+    <!-- <div class="container ">
         <div class="row">
             <p>
                 Cet article a aussi retenu mon attention : il s'agit de l'article <a
                     href="https://www.zdnet.fr/actualites/tendances-2021-les-puces-d-ia-le-mlops-et-l-ethique-39917657.htm">
                     "Tendances 2021 : Les puces d'IA, le MLOps et l'éthique"</a> sur le MLOps, abréviation de Machine
-                Learning Operations, qui est l'équivalent de DevOps pour les modèles ML : les faire passer du développement
+                Learning Operations, qui est l'équivalent de DevOps pour les modèles ML : les faire passer du
+                développement
                 à la production et gérer leur cycle de vie en termes d'améliorations, de corrections et de
                 redéploiements. Cet article traite aussi de l'éthique, en effet, il existe des conséquences
                 environnementales désastreuses qu'entraînent les IA toujours
                 plus gourmandes en ressources.
             </p>
         </div>
-    </div>
+    </div> -->
 
 
-    <div class="container mt-5">
+    <div class="container mt-5" id="raspberry">
         <div class="row">
             <div class="col-lg-6  align-self-center">
                 <h3 class="mt-2 mb-5"> les Raspberry pi</h3>
@@ -229,7 +228,8 @@
                     windows ARM
                     sur raspberry pi. Ainsi on pourra utiliser windows sur un micro-ordinateur. De plus, la deuxième
                     vidéo nous explique aussi comment faire
-                    un cluster ce qui nous permet donc d'avoir plusieurs raspberry pi qui travaillent en même temps comme
+                    un cluster ce qui nous permet donc d'avoir plusieurs raspberry pi qui travaillent en même temps
+                    comme
                     des serveurs.
                 </p>
             </div>
@@ -253,7 +253,7 @@
     </div>
 
 
-    <div class="container mt-5">
+    <div class="container mt-5 " id="vuejs">
         <div class="row">
 
             <div class="col-lg-6 text-center align-self-center">
@@ -267,7 +267,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6  align-self-center">
+            <div class="col-lg-6  align-self-center ">
                 <h3 class="mt-2 mb-5">Vue JS</h3>
                 <p>
                     Cette suite de vidéos a retenu mon attention car elle m'a été trés utile durant mon stage. En effet
@@ -293,15 +293,14 @@
         <div class="row">
             <div class="text-center align-self-center">
                 <p>
-                   Ma veille m'a été utile dans le cas du raspberry pi. En effet dans le projet Gedima'Gination ainsi que dans le projet de maintenance de locaux 
-                   j'ai utilisé un raspberry pi en tant que serveur web, samba, et de base de données distant.
+                    Ma veille m'a été utile dans le cas du raspberry pi. En effet, dans le projet Gedima'Gination ainsi
+                    que dans le projet de maintenance de locaux,
+                    j'ai utilisé un raspberry pi en tant que serveur web, samba et de base de données distant.
 
                 </p>
 
             </div>
         </div>
-
-
 
 
 
@@ -316,7 +315,17 @@
         <script type="text/JavaScript" language="JavaScript" src="lib/typed.min.js"></script>
         <script type="text/JavaScript" language="JavaScript" src="lib/aos.js"></script>
         <script src="https://kit.fontawesome.com/053fcbe95f.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/egg.js/1.0/egg.min.js"></script>
+        <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
         <script type="text/JavaScript" language="JavaScript" src="js/portfolio.js"></script>
+
+        <!-- <script type="text/JavaScript" language="JavaScript" src="lib/jquery-3.5.1.min.js"></script>
+        <script type="text/JavaScript" language="JavaScript" src="lib/bootstrap.min.js"></script>
+        <script type="text/JavaScript" language="JavaScript" src="lib/anime.min.js"></script>
+        <script type="text/JavaScript" language="JavaScript" src="lib/typed.min.js"></script>
+        <script type="text/JavaScript" language="JavaScript" src="lib/aos.js"></script>
+        <script src="https://kit.fontawesome.com/053fcbe95f.js" crossorigin="anonymous"></script>
+        <script type="text/JavaScript" language="JavaScript" src="js/portfolio.js"></script> -->
 
 </body>
 

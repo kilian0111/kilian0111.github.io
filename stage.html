@@ -18,11 +18,11 @@
         <h2 class="loader text-center"><span id="preload"></span> </h2>
     </div>
 
-
+    <div id="progress"></div>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark " style="position:sticky; top:0px;">
         <div class="container-fluid ">
-            <a href="#"><img class="navbar-brand" src="img/logo.png" width="55px"></a>
+            <img class="navbar-brand" src="img/logo.png" width="55px" onclick="window.location = 'index.html';">
             <div id="container" class="navbar-toggler">
                 <div id="burger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +40,7 @@
                         <a class="nav-link color" href="index.html#competences">Compétences</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link color" href="index.html#realisation">Réalisations</a>
+                        <a class="nav-link color active" href="index.html#realisation">Réalisations</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link color" href="index.html#veille">Veille Tech</a>
@@ -149,10 +149,11 @@
             <div class="col-lg-6 align-self-center">
                 <p> Hermes est un CRM qui regroupe l'ensemble des dispositifs ou opérations de marketing ou de
                     support ayant pour but d'optimiser la qualité de la relation client, de fidéliser et de maximiser le
-                    chiffre d'affaires. Hermes est le portail commercial de l’ensemble des conseillers et des managers de
+                    chiffre d'affaires. Hermes est le portail commercial de l’ensemble des conseillers et des managers
+                    de
                     l’entreprise. Ils y trouvent toutes les informations nécessaires à la préparation de leurs
                     propositions commerciales et peuvent ainsi suivre leurs clients et leur activité. <br>
-                    L ‘application Hermes a été faite avec les langages suivants :
+                    L‘application Hermes a été faite avec les langages suivants :
                     <br>
                     <br>
                     - JavaScript
@@ -213,7 +214,8 @@
 
                 <p> Durant ce stage mon rôle était donc de résoudre des tickets qui étaient soit des demandes de
                     corrections,
-                    soit des demandes d'évolution. J'ai pendant ces 8 semaines de stage résolu 26 tickets. Les tickets m'étaient affectés par mon tuteur. Pour effectuer cela,
+                    soit des demandes d'évolution. J'ai pendant ces 8 semaines de stage résolu 26 tickets. Les tickets
+                    m'étaient affectés par mon tuteur. Pour effectuer cela,
                     j'avais le projet Hermes et la base de données en
                     local pour développer les corrections ou les évolutions.
                     Pour le
@@ -241,22 +243,23 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-lg-6 align-self-center">
-                 <p>
-                Ainsi, durant ce stage mon rôle était de résoudre des tickets comme par exemple :
-                <br>
+                <p>
+                    Ainsi, durant ce stage mon rôle était de résoudre des tickets comme par exemple :
+                    <br>
 
-                Bien metre en évidence que le taux d’endettement d’un client est supérieur à 33% s’il
-                décide de conclure la vente. Or aucune banque ne fait de prêt au-dessus des 33% d’endettement ;
-                c’est pourquoi, dans le dossier il fallait le mettre en gras et en rouge et en plus envoyer un mail
-                au manager si le dossier avait été validé.
-                <br>
-                <br>
-                Pour pouvoir récupérer la donnée taux d’endettement après opération j’ai dû modifier une vue
-                qui est reliée avec une class du code java grâce au Framework Hibernate, rajouter un autre
-                attribut à la class et le relier avec le champs de la vue. Puis, il fallait modifier le front-end
-                pour afficher la donnée et enfin créer un template de mail pour envoyer le mail aux managers (ci-dessous). Ainsi
-                les managers peuvent contrôler la vente.
-            </p>
+                    Bien metre en évidence que le taux d’endettement d’un client est supérieur à 33% s’il
+                    décide de conclure la vente. Or aucune banque ne fait de prêt au-dessus des 33% d’endettement ;
+                    c’est pourquoi, dans le dossier il fallait le mettre en gras et en rouge et en plus envoyer un mail
+                    au manager si le dossier avait été validé.
+                    <br>
+                    <br>
+                    Pour pouvoir récupérer la donnée taux d’endettement après opération, j’ai dû modifier une vue
+                    qui est reliée avec une class du code java grâce au Framework Hibernate, rajouter un autre
+                    attribut à la class et le relier avec le champ de la vue. Puis, il fallait modifier le front-end
+                    pour afficher la donnée et enfin créer un template de mail pour envoyer le mail aux managers
+                    (ci-dessous). Ainsi
+                    les managers peuvent contrôler la vente.
+                </p>
             </div>
             <div class="col-lg-6 text-center align-self-center">
                 <img src="img/ticket.png" alt="logo valeur et capital" class="img-fluid">
@@ -264,19 +267,19 @@
             </div>
         </div>
     </div>
-             
-        
+
+
     </div>
     <div class="container">
-        <div class="row text-center align-self-center" >
-            <div class="offset-lg-3 col-lg-6">
+        <div class="row text-center align-self-center">
+            <div class="col-lg-7"></div>
 
-            
 
-        
-        <img src="img/resolu.png" alt="logo valeur et capital" class="img-fluid" >
-    </div>
-           
+
+
+            <img src="img/resolu.png" alt="logo valeur et capital" class="img-fluid">
+        </div>
+
     </div>
     </div>
     </div>
@@ -290,19 +293,22 @@
     <div class="container mt-5 mb-5">
         <div class="row">
             <div class="text-center align-self-center">
-                 <p>
-                     Tout d'abord ce stage m'a permis d'apprendre de nombreuses technologies comme vueJS ou encore Hibernates.<br>
-                     De plus, cette expérience fut très enrichissante car elle m'a permis d'apprendre à utiliser les bonnes méthodes et à gagner de l'expérience dans le domaine du développement.
-                     En effet, j'ai ainsi pu me rendre compte des méthodes de travail utilisées en entreprise comme la méthode agile par exemple.                    
-                     
+                <p>
+                    Tout d'abord ce stage m'a permis d'apprendre de nombreuses technologies comme vueJS ou encore
+                    Hibernates.<br>
+                    De plus, cette expérience fut très enrichissante car elle m'a permis d'apprendre à utiliser les
+                    bonnes méthodes et à gagner de l'expérience dans le domaine du développement.
+                    En effet, j'ai ainsi pu me rendre compte des méthodes de travail utilisées en entreprise comme la
+                    méthode agile par exemple.
 
-               
-            
 
-            </p>
-           
+
+
+
+                </p>
+
+            </div>
         </div>
-    </div>
 
 
 
@@ -311,7 +317,7 @@
 
 
 
-
+        <!-- 
 
     <script type="text/JavaScript" language="JavaScript" src="lib/jquery-3.5.1.min.js"></script>
     <script type="text/JavaScript" language="JavaScript" src="lib/bootstrap.min.js"></script>
@@ -319,7 +325,17 @@
     <script type="text/JavaScript" language="JavaScript" src="lib/typed.min.js"></script>
     <script type="text/JavaScript" language="JavaScript" src="lib/aos.js"></script>
     <script src="https://kit.fontawesome.com/053fcbe95f.js" crossorigin="anonymous"></script>
-    <script type="text/JavaScript" language="JavaScript" src="js/portfolio.js"></script>
+    <script type="text/JavaScript" language="JavaScript" src="js/portfolio.js"></script> -->
+
+        <script type="text/JavaScript" language="JavaScript" src="lib/jquery-3.5.1.min.js"></script>
+        <script type="text/JavaScript" language="JavaScript" src="lib/bootstrap.min.js"></script>
+        <script type="text/JavaScript" language="JavaScript" src="lib/anime.min.js"></script>
+        <script type="text/JavaScript" language="JavaScript" src="lib/typed.min.js"></script>
+        <script type="text/JavaScript" language="JavaScript" src="lib/aos.js"></script>
+        <script src="https://kit.fontawesome.com/053fcbe95f.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/egg.js/1.0/egg.min.js"></script>
+        <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+        <script type="text/JavaScript" language="JavaScript" src="js/portfolio.js"></script>
 
 </body>
 
